@@ -1,0 +1,21 @@
+html {
+	background-image: url('/images/upfeathers.png');
+}
+
+h1 {
+	font-family: 'Francois One', sans-serif;
+	text-align: center;
+}
+
+p {
+	font-family: Arial, sans-serif;
+	width: 600px;
+	margin: 0 auto 10px;
+}
+
+img {
+	width: 400px;
+	display: block;
+	margin: 20px auto 0;
+	border: 3px solid #000;
+}
