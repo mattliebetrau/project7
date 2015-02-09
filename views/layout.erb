@@ -8,7 +8,12 @@
   </head>
   <body>
     <div class="container">
-      <%= yield %>
+      <div class="col-sm-6 left">
+        <%= yield_content :left_side %>
+      </div>
+      <div class="col-sm-6 right">
+        <%= yield_content :right_side %>
+      </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
