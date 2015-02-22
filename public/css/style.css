@@ -1,9 +1,22 @@
 body {
-	background-image: url('/images/upfeathers.png');
+	background: #ecf0f1;
+	color: #34495e;
+	text-align: center;
+}
+
+h1, h2, h3 {
+	font-family: 'Francois One', sans-serif;
 }
 
 h1 {
-	font-family: 'Francois One', sans-serif;
+	font-size: 5em;
+}
+
+h2 {
+	color: #fff;
+	background-color: #326150;
+	padding: 10px;
+	display: inline-block;
 }
 
 p {

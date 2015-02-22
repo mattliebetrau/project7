@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">  
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
+    <title>Holidays</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <h1>Holidays</h1>
+      
+      <h2>Holidays This Month</h2>
+      <% @holidays_month_current.each do |holiday| %>
+        <h3><%= holiday[0]['name'] %></h3>
+        <p><%= holiday[0]['date'] %></p>
+      <% end %>
+
+      <h2>Holidays in August of 1992</h2>
+      <% @holidays_matt.each do |holiday| %>
+        <h3><%= holiday[0]['name'] %></h3>
+        <p><%= holiday[0]['date'] %></p>
+      <% end %>
+      
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>
