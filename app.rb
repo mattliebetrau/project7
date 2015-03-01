@@ -7,8 +7,8 @@ class MyWebApp < Sinatra::Base
   helpers Sinatra::ContentFor
   get '/' do
     params['country'] ||= 'us'
-    params['year'] ||= Time.now.year
-    params['month'] ||= Time.now.month
+    params['year'] ||= '2015'
+    params['month'] ||= '1'
     @holidays = HolidApi.get(country: params['country'], year: params['year'], month: params['month'])
     erb :index
   end
