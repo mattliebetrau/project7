@@ -32,6 +32,36 @@ img {
 	border: 3px solid #000;
 }
 
+label {
+	display: block;
+	margin-top: 10px;
+}
+
+button {
+	display: block;
+	background-color: #34495e;
+	border: none;
+	color: #fff;
+	margin: 15px auto;
+	padding: 10px;
+	text-transform: uppercase;
+	width: 150px;
+}
+button:hover, button:focus {
+	background-color: #326150;
+}
+
 .right {
 	padding-top: 20px;
+}
+
+.form-wrapper {
+  border-top: 3px dotted #326150;
+  padding: 20px;
+  width: 60%;
+  margin: 25px auto 0;
+}
+
+.no-date-message {
+	margin-top: 10px;
 }
